@@ -1,0 +1,36 @@
+
+
+@media screen and (min-width: 1000px) {
+    #section {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .foodImg {
+    height: 50%;
+    display: block;  
+    margin-left: 7%;
+    margin: 0 auto 7%;
+}
+
+.area {
+    width: 90%;
+    font-size: 17px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.head {
+    display: flex;
+    gap: 80%;
+    color: blue;
+}
+
+.foodImg {
+    height: 500px;
+   border-radius: 5px;
+   display: block;
+   margin: 20px auto 0px;
+}
+
+}

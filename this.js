@@ -1,6 +1,8 @@
 
 
 
+
+
 // // const APP_ID = "5d908bd3";
 // // const APP_KEY = "ff27b2b3a487e4c4773e1ff42709c416";
 // // const SEARCH_QUERY = "pasta";
@@ -63,21 +65,17 @@
 
 
 const bodyTag = document.getElementById('section')
-const insertFood = document.getElementById('insertFood');
-const searchButton = document.getElementById('searchButton');
+// const insertFood = document.getElementById('insertFood');
+// const searchButton = document.getElementById('searchButton');
 
 
 
-searchButton.addEventListener('click', (e) => {
-    const value = insertFood.value;
-e.preventDefault();
-  
 //     // section.textContent = value;
 //     console.log(value);
 
 
     // Define the endpoint URL
-    const apiUrl = `https://www.themealdb.com/api/json/v1/1/search.php?s=${value}`;
+    const apiUrl = `https://www.themealdb.com/api/json/v1/1/search.php?s`;
 
     // Make the GET request using fetch
     fetch(apiUrl)
@@ -161,4 +159,3 @@ e.preventDefault();
             console.error("There was an error fetching the meal data:", error);
         });
 
- });
