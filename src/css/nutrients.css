@@ -55,3 +55,23 @@ section {
     top: 200px;
     padding: 20px;
 }
+
+.butt:hover {
+    background-color: burlywood;
+    transform: translateY(-3px);
+}
+
+   .fade-in {
+  opacity: 0; /* Start fully transparent */
+  animation: fadeIn 2s ease-in forwards;
+}
+
+/* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Invisible */
+  }
+  to {
+    opacity: 1; /* Fully visible */
+  }
+}

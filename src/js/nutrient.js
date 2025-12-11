@@ -56,6 +56,7 @@ searchButton.addEventListener('click', (e) => {
                         section.appendChild(h2);
 
                         section.classList.add('sectionBody');
+                        section.classList.add('fade-in');
 
                     
                     })
